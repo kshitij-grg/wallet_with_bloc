@@ -1,13 +1,13 @@
 import 'dart:async';
 
 import 'package:flutter/material.dart';
-import 'package:flutter_online_shop/util/colors.dart';
 import 'package:lottie/lottie.dart';
 
-import '../../../routes.dart';
-import '../../../util/dimensions.dart';
-import '../../../util/images.dart';
-import '../../../util/lotties.dart';
+import '../../../shared/constants/colors.dart';
+import '../../../shared/constants/dimensions.dart';
+import '../../../shared/constants/images.dart';
+import '../../../shared/constants/lotties.dart';
+import '../../../shared/routes/routes.dart';
 
 class SplashScreen extends StatefulWidget {
   const SplashScreen({super.key});
@@ -20,7 +20,7 @@ class _SplashScreenState extends State<SplashScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: AppColors.fPRIMARY_DARK_COLOR,
+      backgroundColor: AppColors.fPRIMARYDARK,
       body: SafeArea(
         child: SizedBox(
           width: Dimensions(context).width,

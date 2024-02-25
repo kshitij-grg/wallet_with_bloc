@@ -6,7 +6,7 @@ TextStyle appStyle({
   Color? color,
   FontWeight? fontWeight,
 }) {
-  return GoogleFonts.poppins(
+  return GoogleFonts.mulish(
     fontSize: fontSize,
     color: color,
     fontWeight: fontWeight,
@@ -22,7 +22,7 @@ Text appText(
 }) {
   return Text(
     data,
-    style: GoogleFonts.poppins(
+    style: GoogleFonts.mulish(
       fontSize: fontSize ?? 14,
       color: color,
       fontWeight: fontWeight,

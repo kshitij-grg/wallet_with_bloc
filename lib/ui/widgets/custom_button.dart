@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_online_shop/util/dimensions.dart';
 
-import '../util/colors.dart';
-import '../util/styles.dart';
+import '../../shared/constants/colors.dart';
+import '../../shared/constants/dimensions.dart';
+import '../../shared/constants/styles.dart';
 
 class CustomButton extends StatelessWidget {
   final String? title;
@@ -24,7 +24,7 @@ class CustomButton extends StatelessWidget {
       child: ElevatedButton(
         onPressed: onPressed,
         style: ElevatedButton.styleFrom(
-            backgroundColor: AppColors.fPRIMARY_COLOR,
+            backgroundColor: AppColors.fPRIMARY,
             shape: RoundedRectangleBorder(
               borderRadius: BorderRadius.circular(8),
             )),
